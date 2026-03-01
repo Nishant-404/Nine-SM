@@ -2,8 +2,9 @@
 
 **An audiophile-grade, 24-bit FLAC audio streamer and player built for high-end In-Ear Monitors (IEMs).**
 
-![Nine-SM Banner](https://via.placeholder.com/1000x300/12011a/D0BCFF?text=Nine-SM+Audio+Player) 
-*(Note: Replace this placeholder link with an actual screenshot of your app later!)*
+<img width="1024" height="1024" alt="ChatGPT Image Mar 2, 2026, 01_46_12 AM" src="https://github.com/user-attachments/assets/d97b6a26-ae3b-422a-9446-ab5ac021029c" />
+
+
 
 ---
 
