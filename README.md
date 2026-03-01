@@ -1,34 +1,47 @@
 # 🎧 Nine-SM
 
-**Nine-SM** is a high-fidelity, ad-free music streaming and downloading application built with Flutter. Designed specifically for audiophiles and IEM enthusiasts, it prioritizes uncompressed 24-bit FLAC audio to deliver the highest possible listening experience directly to your device.
+**An audiophile-grade, 24-bit FLAC audio streamer and player built for high-end In-Ear Monitors (IEMs).**
 
-## ✨ The Vision
-Most streaming apps heavily compress audio, ruining the experience for users with high-end In-Ear Monitors (IEMs). Nine-SM fixes this by forcing high-resolution audio sources, paired with a custom dark-mode UI designed around the "Deep-V" aesthetic.
+![Nine-SM Banner](https://via.placeholder.com/1000x300/12011a/D0BCFF?text=Nine-SM+Audio+Player) 
+*(Note: Replace this placeholder link with an actual screenshot of your app later!)*
 
-## 🚀 Current Features
-* **High-Resolution Audio:** Prioritizes 24-bit / 44.1kHz FLAC streaming and downloads.
-* **Universal Search & Playback:** Paste standard Spotify, Deezer, or Tidal links directly into the app to instantly fetch tracks.
-* **Offline Library:** Download full albums directly to your local device storage with embedded high-res cover art.
-* **Smart Recents:** An intelligent SQLite history database that tracks your recent playlists and albums for instantaneous playback.
+---
 
-## 🚧 Upcoming Roadmap (In Development)
-* **Spotify-Style Sleep Timer:** Fading audio cutoff for late-night listening.
-* **Swipe-to-Queue:** Intuitive gesture controls for playlist management.
-* **Audiophile EQ:** 10-band graphic equalizer with custom presets tailored for specific IEM sound signatures.
-* **Live Bitrate Display:** Real-time stream quality monitoring on the player screen.
+## 🎵 The Philosophy
+Standard music players are built for standard headphones. **Nine-SM** is engineered specifically for the audiophile community. By combining true 24-bit/96kHz audio streaming with a hardware-level, normalized DSP matrix, Nine-SM delivers studio-reference sound customized for legendary IEM hardware.
 
-## 🛠️ Built With
-* [Flutter](https://flutter.dev/) - Frontend UI toolkit
-* [Go (Golang)](https://go.dev/) - Embedded backend bridge for high-speed metadata scraping
-* SQLite - Fast, local database for offline library management
+## ✨ Key Features
 
-## 🚀 Build Instructions
-1. Clone the repository: `git clone https://github.com/nishant-404/Nine-SM.git`
-2. Fetch dependencies: `flutter pub get`
-3. Run the app: `flutter run`
+* **High-Fidelity Engine:** Native support for 24-bit FLAC streaming to ensure zero compression loss.
+* **Precision IEM Targets:** Features a 10-band hardware equalizer with mathematically normalized presets specifically tuned for:
+  * Truthear Zero (Red & Blue)
+  * Simgot EW300
+  * BLON BL-07
+* **Seamless Queue Management:** A premium, dark-themed "Up Next" bottom sheet featuring fluid Swipe-to-Remove gesture controls.
+* **Dynamic UI:** A heavily customized Material 3 interface built on a deep-purple (`#12011a`) aesthetic that is easy on the eyes in dark environments.
+* **Ultra-Responsive State:** Powered by Riverpod for zero-latency UI updates between the audio engine and the playback screens.
 
-## 📜 Acknowledgments
-This project is an evolved, audiophile-focused fork of the [SpotiFLAC](https://github.com/Zarz.../SpotiFLAC) repository. Nine-SM takes the powerful Go/Flutter bridge developed in the original project and diverges it to focus heavily on an IEM-first experience, a custom UI, and high-res audio prioritization.
+## 📸 Screenshots
+<div align="center">
+  <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=Home+Screen" width="24%">
+  <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=Player" width="24%">
+  <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=EQ+Matrix" width="24%">
+  <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=Queue" width="24%">
+</div>
 
-## ⚖️ License
-Distributed under the MIT License.
+## 🛠️ Technical Architecture
+* **Framework:** Flutter / Dart
+* **State Management:** Riverpod (`flutter_riverpod`)
+* **Audio Engine:** Custom implementation utilizing `just_audio` & `audio_service`
+* **Local Storage:** SQLite & Shared Preferences
+* **UI/UX:** Material 3 / Dynamic Color
+
+## 🚀 Getting Started
+
+### 📥 Install the APK (Android Only)
+You can download the latest highly-optimized release build directly from the [Releases Tab](../../releases).
+
+### 💻 Build from Source
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Nishant-404/Nine-SM.git](https://github.com/Nishant-404/Nine-SM.git)
