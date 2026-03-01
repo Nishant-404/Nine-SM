@@ -23,8 +23,10 @@ Standard music players are built for standard headphones. **Nine-SM** is enginee
 
 ## 📸 Screenshots
 <div align="center">
-  <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=Home+Screen" width="24%">
-  <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=Player" width="24%">
+  ![WhatsApp Image 2026-03-02 at 2 22 13 AM](https://github.com/user-attachments/assets/dcf7eeee-2157-45e8-a16c-d824ff615267)
+
+  ![WhatsApp Image 2026-03-02 at 2 22 13 AM (1)](https://github.com/user-attachments/assets/8375ad04-d35d-4810-b933-7d97af176b2a)
+
   <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=EQ+Matrix" width="24%">
   <img src="https://via.placeholder.com/250x500/2B2930/D0BCFF?text=Queue" width="24%">
 </div>
